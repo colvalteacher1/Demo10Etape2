@@ -10,9 +10,9 @@ namespace MyApp.OrdersApi.Controllers
         // Liste des commandes en mémoire
         private static readonly List<Order> orders = new()
         {
-            new Order { Id = 1, CustomerName = "Ali", ProductId = 1, Quantity = 2, Total = 2400 },
-            new Order { Id = 2, CustomerName = "Sara", ProductId = 2, Quantity = 1, Total = 800 },
-            new Order { Id = 3, CustomerName = "Ahmed", ProductId = 3, Quantity = 3, Total = 1500 },
+            new Order { Id = 1, CustomerName = "Fred", ProductId = 1, Quantity = 2, Total = 2400 },
+            new Order { Id = 2, CustomerName = "David", ProductId = 2, Quantity = 1, Total = 800 },
+            new Order { Id = 3, CustomerName = "Samy", ProductId = 3, Quantity = 3, Total = 1500 },
             new Order { Id = 4, CustomerName = "Maya", ProductId = 4, Quantity = 2, Total = 300 }
         };
 
